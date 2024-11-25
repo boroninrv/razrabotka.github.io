@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; 
+}
+
+.solar-system {
+    position: relative;
+    width: 800px; 
+    height: 800px; 
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px; 
+    height: 100px;
+    background-image: url('sun.webp'); 
+    background-size: cover;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--orbit-radius) * 2);
+    height: calc(var(--orbit-radius) * 2);
+    border-radius: 50%;
+    border: 1px dashed rgba(255, 255, 255, 0.5); 
+    transform: translate(-50%, -50%);
+}
+
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    background-size: cover;
+}
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.mercury {
+    width: 20px; 
+    height: 20px;
+    background-image: url('mercury.webp'); 
+}
+
+.venus {
+    width: 45px; 
+    height: 25px;
+    background-image: url('venera.webp'); 
+}
+
+.earth {
+    width: 50px; 
+    height: 30px;
+    background-image: url('zemlya.webp'); 
+}
+
+.mars {
+    width: 40px; 
+    height: 25px;
+    background-image: url('marsssd.webp'); 
+}
+
+.jupiter {
+    width: 40px; 
+    height: 40px;
+    background-image: url('upi.webp'); 
+}
+
+.saturn {
+    width: 40px; 
+    height: 35px;
+    background-image: url('satoru.webp'); 
+}
+
+.uranus {
+    width: 40px; 
+    height: 30px;
+    background-image: url('urna.webp'); 
+}
+
+.neptune {
+    width: 40px; 
+    height: 30px;
+    background-image: url('net.webp'); 
+}
+
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}

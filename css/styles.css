@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #000428, #004e92);
+    /* Градиентный фон */
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    /* Цвет при наведении */
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.galaxy-image {
+    max-width: 80%;
+    border-radius: 15px;
+    /* Скругленные углы изображения */
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+    /* Тень для изображения */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+}
+
+.missions-container {
+    margin-top: 20px;
+    display: none;
+    /* Скрываем контейнер изначально */
+}
+
+.mission {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mission img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
